@@ -1,0 +1,21 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reproductor</title>
+</head>
+
+<body>
+    <video controls autoplay id="mivideo" width="640" height="320">
+         <source autoplay src="http://ais-edge13-113fm-bhs06.cdnstream.com/1730_128" >
+        </video>
+
+    <script>
+        mivideo = document.getElementById('mivideo');
+        mivideo.loop = true;
+        mivideo.load();
+        mivideo.autoplay = true;
+    </script>
+</body>
+
+</html>
